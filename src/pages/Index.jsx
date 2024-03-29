@@ -50,7 +50,7 @@ const Index = () => {
         Recipe Finder
       </Heading>
       <Stack direction="row" spacing={4} mb={8} justify="center">
-        <Input placeholder="Enter ingredients (e.g., chicken, broccoli)" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+        <Input placeholder="Enter ingredients (e.g., chicken, broccoli, carrots)" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
         <Button leftIcon={<FaSearch />} colorScheme="blue" onClick={handleSearch}>
           Search
         </Button>
